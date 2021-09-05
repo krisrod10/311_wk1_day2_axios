@@ -1,16 +1,16 @@
 {
   "name": "aca-js311-protocol-practice",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "practicing node app using axious",
+  "main": "src/index.js",
   "scripts": {
-    "start": "nodemon -x npm run test",
+    "start": "node src/index.js",
     "test": "jest"
   },
-  "author": "",
+  "author": "Kris Rodgers",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.3",
     "dotenv": "^8.0.0",
     "jest": "^24.8.0",
     "nodemon": "^1.19.1"
